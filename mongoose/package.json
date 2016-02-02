@@ -1,0 +1,26 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "test mongoose and gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "keywords": [
+    "mongoose",
+    "gulp",
+    "mocha"
+  ],
+  "author": "sam wang",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "4.0.3"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-exec": "^2.1.2",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4"
+  }
+}
